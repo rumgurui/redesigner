@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(124, 124, 124);
+
+}
+.buttons{
+    background-color: none;
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: 2px 2px 20px rgb(24, 24, 24);
+    margin-left:55px ;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+}
+.buttons:hover{
+    color: rgb(20, 150, 20);
+    transition:0.5s ;
+}
+.containern1{
+    width: 325px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71);
+    margin-left: 130px;
+    margin-top: 90px;
+    position: relative;
+    animation-name: welcome;
+    animation-duration: 2s;
+    box-shadow: 2px 2px 40px rgb(65, 65, 65);
+}
+.containern1:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+@keyframes welcome {
+    0% {
+        transform: translateY(70%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+.content{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(230, 230, 230);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: welcome;
+    animation-duration: 2s;
+}
+.mini{
+    width: 90%;
+    height: 25%;
+    background-color: rgb(66, 66, 66);
+    position: relative;
+    left: 15px;
+    top: -30px;
+    animation-name: welcome;
+    animation-duration: 2s;
+    border-radius: 10px;
+    
+    
+}
+.mini:hover{
+    box-shadow: 2px 2px 40px green;
+    transition: 0.4s;}
+.mini:hover + .albums {
+        transform: scale(1.01);
+      }
+@keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+.albums{
+    height: 70%;
+    padding: 20px;
+    animation: rotate 5s linear infinite;
+    border-radius: 50%;
+
+}
+.history{
+    animation: welcome 3s;
+    font-size: 20px;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: rgb(230, 230, 230);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   
+    }
+.heartless{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -70px;
+
+}
+.heartless:hover{
+    color: rgb(42, 165, 46);
+    transition: 0.5s ;
+}
+.br{
+    position: relative;
+    left: 130px;
+}
+.minini{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(66, 66, 66);
+    position: relative;
+    left: 15px;
+    top: -30px;
+    animation-name: welcome;
+    animation-duration: 2s;
+    border-radius: 10px;
+}
+.minini:hover{
+    box-shadow: 2px 2px 40px green;
+    transition: 0.4s;}
+.minini:hover + .albums {
+        transform: scale(1.01);
+      }
+.album{
+    height: 70%;
+    padding: 20px;
+}
+.nagel{
+    margin-left: 150px;
+    position: relative;
+    top: -10px;
+}
+.user{
+
+ font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -80px;
+    left: 150px;
+
+}
+.user:hover{
+    color: rgb(42, 165, 46);
+    transition: 0.5s ;
+}
